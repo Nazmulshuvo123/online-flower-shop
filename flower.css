@@ -65,28 +65,35 @@ font-family: inter;
     margin-left: 30%;
 }
 /* Feature style */
-.feature-image-container{
+ .feature-image-container{
     width: 90%;
     margin: 0 auto;
     height: 607px;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
     
 }
 .feature-title-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: 0 auto;
-    
+    width: 500px;
+    height: 125px;
+    margin-bottom: 20px;
+  
 }
-.feature-title-container h2{
+
+
+.feature-title-container h3{
     color: rgb(39, 39, 39);
     font-family: lato;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
+    text-align: center;
+    padding-top: 5px;
 }
+
 .feature-title-container p{
     color: rgba(39, 39, 39, 0.6);
     font-family: lato;
@@ -95,30 +102,21 @@ font-family: inter;
     text-align: center;
     padding-top: 10px;
 }
-.feature-image-content{
+.image-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
     gap: 20px;
     
 }
 .first-image,.second-image,.third-image{
-    height: 440px;
-    width: 33%;
+    height: 450px;
+    width: 392px;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 70px;
     border-radius: 50% 50% 0 0;
-    
 }
-.img3{
-    height: 430px;
-}
-
 #first{
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15)
 }
 #second{
     background: rgba(5, 151, 160, 0.15);
@@ -126,24 +124,57 @@ font-family: inter;
 #third{
     background: rgba(71, 125, 17, 0.15);
 }
+.tree-name{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
 /* style icon container */
 .icon-container{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid lightcoral;
     margin-top: 120px;
     height: 330px;
     background-color: rgba(83, 79, 79, 0.171);
+    border-radius: 10px;
 
 }
 .icon-image-container{
     width: 90%;
     margin: 0 auto;
-    height: 140px;
-    margin-top: 88px;
-    background-color: white;
-    border: 2px solid blue;
+    height: 180px;
+    margin-top: 70px;
+    display: flex;
+    
+    
 
+}
+.icon-image-content{
+    width: 30%;
+    margin: 0 auto;
+    height: 140px;
+    margin-top: 20px;
+    margin-top: 10%;
+}
+
+.icon-image-content img{
+    height: 88px;
+    width: 80px;
+    margin-left: 36%;
+}
+
+.icon-image-content p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
 }
 
 
