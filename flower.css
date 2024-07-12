@@ -191,6 +191,8 @@ font-family: inter;
     margin-top: 80px;
                     
 }
+
+/* Common - use - content */
 .title{
     font-family: Lato;
     font-size: 30px;
@@ -207,6 +209,8 @@ font-family: inter;
     margin-top: 20px;
     text-align: center;
 }
+
+
 .sing-up-button{
     color: rgb(255, 255, 255);
     font-family: Lato;
@@ -224,9 +228,47 @@ font-family: inter;
     width: 250px;
     height: 350px;
     margin-top: 90px;
+    border: 2px solid;
+    border-color: gray;
+    border-style: dashed;
 }
 .hot-deal-image img{
     width: 250px;
     height: 350px;
 }
+
+/* instagram-container-section */
+
+.instagram-container{
+    width: 90%;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+}
+.instagram-title-container{
+    width: 50%;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 300px;
+    
+}
+.insta-image-content{
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.insta-img{
+    height: 350px;
+    width: 290px;
+    border: 2px solid;
+    border-color: gray;
+    border-style: dashed;
+}
+   
 
