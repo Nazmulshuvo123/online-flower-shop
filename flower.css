@@ -264,7 +264,7 @@ font-family: inter;
 }
 
 .insta-img{
-    height: 350px;
+    height: 330px;
     width: 290px;
     border: 2px solid;
     border-color: gray;
@@ -277,6 +277,7 @@ font-family: inter;
     height: 400px;
     margin: 0 auto;
     display: flex;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -286,7 +287,10 @@ font-family: inter;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.hot-deal-image{
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
 .input-container input{
     width: 500px;
     height: 50px;
@@ -296,9 +300,10 @@ font-family: inter;
     background: rgb(255, 255, 255);
     margin-top: 20px;
 
-
 }
-
+.hot-deal-title{
+    margin-right: 30px;
+}
 placeholder{
     color: rgba(39, 39, 39, 0.6);
     font-family: Lato;
@@ -325,3 +330,32 @@ placeholder{
 }  
 
 
+.footer-container{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(15, 15, 15);
+    margin-bottom: 10px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 70px;
+}
+#id1{
+    color: white;
+}
+.para{
+    font-size: 16px;
+    color: white;
+    font-family: lato;
+    margin-top: 20px;
+    font-weight: 400;
+}
